@@ -1,0 +1,16 @@
+@import "./a.css";
+
+.a {
+	box-shadow: 0 0 3px rgba(0, 0, 255);
+}
+
+/* 兼容新语法，实际上这工作预编译器都干了 */
+a,
+b {
+	color: red;
+
+	& c,
+	& d {
+		color: white;
+	}
+}

@@ -1,0 +1,12 @@
+:root {
+	--mainColor: red;
+  }
+  
+ .yanse {
+	color: var(--mainColor);
+  }
+
+.bbb {
+	width: 500px;
+	height: 500px;
+}
